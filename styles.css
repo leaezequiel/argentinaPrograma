@@ -1,0 +1,24 @@
+header{
+    padding: 1%;
+    background-color:black;
+    color:blanchedalmond
+}
+
+.container{
+    background-color: blanchedalmond;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 2%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.secction{
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 20px;
+    padding: 2%
+}
