@@ -8,11 +8,17 @@ header{
     background-color: blanchedalmond;
     margin-right: 0;
     margin-left: 0;
-    padding: 2%;
+}
+
+.profile{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 1px solid;
 }
 
 img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
