@@ -4,6 +4,9 @@ header{
     color:blanchedalmond
 }
 
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .container{
     margin-right: 0;
     margin-left: 0;
