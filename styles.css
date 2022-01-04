@@ -7,6 +7,11 @@ header{
 *{
     font-family: 'Poppins', sans-serif;
 }
+
+.redes{
+    justify-content: left;
+}
+
 .container{
     margin-right: 0;
     margin-left: 0;
