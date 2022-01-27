@@ -1,15 +1,26 @@
 header{
-    padding: 1%;
     background-color:black;
-    color:blanchedalmond
+    color:#ffebcd;
+    padding: 1%;
+    align-content: space-between;
 }
 
 *{
     font-family: 'Poppins', sans-serif;
 }
 
+.headerContenedor{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .redes{
-    justify-content: left;
+    text-align: center;  
+}
+
+.miNombre{
+    text-align: center;  
 }
 
 .container{
