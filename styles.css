@@ -24,18 +24,35 @@ header{
 }
 
 .container{
+    display: flexbox;
+}
+
+.secctionPuente{
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 20px;    
 }
 
 .profile{
-    height: 160px;
-    width: 160px;
+    height: 190px;  
+    width: 190px;
     border-radius: 50%;
     border: 1px solid;
 }
 
 img {
-    width: 50%;
-    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 15%;
+}
+
+.miniPerfil{
+    padding: 2%;
+
+}
+
+.puente{
+    max-width: 100%;
 }
 
 .secction{
