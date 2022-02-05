@@ -1,4 +1,9 @@
-console.log("lea");
-var cuenta = 0;
+function cambiar_parrafo(){
+    document.getElementById("edit-acercade").style.display="block";
+    let texto = document.getElementById("text-acercade").innerText;
+    console.log(texto);
+};
 
-console.log(cuenta)
+function myFunction2(valor){
+    document.getElementById("text-acercade").innerText=valor;
+};
