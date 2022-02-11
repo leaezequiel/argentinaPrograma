@@ -62,3 +62,17 @@ img {
     border-radius: 20px;
     padding: 2%
 }
+
+/*Progress Bar Header*/
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+  .progress-bar2 {
+    height: 8px;
+    background: #04AA6D;
+    width: 0%;
+  }
+  /*Progress Bar Header*/

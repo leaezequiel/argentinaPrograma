@@ -8,10 +8,10 @@ function myFunction2(valor){
     document.getElementById("text-acercade").innerText=valor;
 };
 
+function logMessage(mensaje){ 
+    console.log(mensaje+" ");
+}
 
-//COPIANDO PARTE DEL VIDEO:
-
-//controla si se presiona enter
 let textarea=document.getElementById("edit-acercade")
 textarea.addEventListener('keyup', (e) => {
     logMessage('Key "${e.key}" released [event: keyup]');
@@ -19,5 +19,15 @@ textarea.addEventListener('keyup', (e) => {
         document.getElementById("edit-acercade").style.display="none"
     }
 });
-//carga el contenido de un archivo de texto y lo muestra en el parrafo:
+//Boton de edicion ACERCA DE sacado de la masterclass
 
+//Progress Bar del header
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+//Progress Bar del header
